@@ -1,4 +1,7 @@
-# Node.js Starter Application
+
+# DemoNodeJSRest
+
+extended from - Node.js Starter Application
 
 Bluemix provides a Node.js starter application as a template so that you can
 add your code and push the changes back to the Bluemix environment.
@@ -11,6 +14,8 @@ The Node.js starter application has files as below:
 
 	This file contains the server side JavaScript code for your application
 	written using the express server package.
+	
+	It implements a very simple RestFull webservice that show the json content of users.json file.
 
 * public/
 
@@ -23,4 +28,4 @@ The Node.js starter application has files as below:
 	the `npm` program to install packages, but also Bluemix when it's
 	staging your application.  For more information, see:
 	<https://docs.npmjs.com/files/package.json>
-# DemoNodeJSRest
+
